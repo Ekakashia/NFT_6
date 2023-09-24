@@ -1,0 +1,381 @@
+@font-face{
+    font-family: "Work Sans";
+    src: url(./WorkSans-Regular.ttf);
+    font-family: Space Mono;
+    src: url(./SpaceMono-Regular.ttf);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background: hsla(0, 0%, 17%, 1) !important;
+}
+.row1{
+    padding: 20px 30px !important;
+}
+.a2{
+    color: #FFF !important;
+    font-family: "Work Sans" !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: 140% !important; /* 22.4px */
+    padding: 20px 40px !important;
+}
+.navbtn{
+    color: #FFF;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    border-radius: 20px;
+    background: var(--call-to-action, #A259FF); 
+    width: 152px;
+    height: 60px;
+    border: 1px solid #A259FF;
+}
+.fluid1{
+    background-image: url(./Image\ PlaceHolder\ \(20\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 560px;
+}
+.fluid2{
+    background-image: url(./Image\ PlaceHolder\ \(22\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 320px;
+}
+.div1, .last, .dfooter{
+    width: 1050px !important;
+}
+.h2div1{
+    color: var(--White, #FFF);
+    font-family: Work Sans;
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; /* 56.1px */
+    text-transform: capitalize;
+}
+.pdiv1{
+    color: var(--caption-label-text, #858584);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 35.2px */
+    text-transform: capitalize;
+}
+.clock{
+    width: 295px;
+    height: 237px;
+    border-radius: 20px;
+    background-color: hsla(0, 0%, 23%, 0.5);
+ }
+ .pclock{
+     color: var(--text, #FFF);
+     font-family: Space Mono;
+     font-size: 12px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 110%; /* 13.2px */
+ }
+ .h3clock{
+     color: var(--text, #FFF);
+     font-family: Space Mono;
+     font-size: 28px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 140%; /* 39.2px */
+     text-transform: capitalize;
+  }
+  .btnclock{
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    width: 235px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: hsla(266, 100%, 67%, 1);
+    border: none;
+}
+.h5block1{
+    color: #858584;
+    font-family: Space Mono;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 35.2px */
+    text-transform: capitalize;
+}
+.pblock1{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 30.8px */
+    text-transform: capitalize;
+}
+.p1div1{
+    color: hsla(0, 0%, 100%, 1);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 35.2px */
+    text-transform: capitalize;
+}
+.btn1{
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    text-transform: uppercase;
+    height: 46px;
+    border-radius: 20px;
+    background: var(--Background---Secondary, #3B3B3B);
+    border: none;
+    width: 150px;
+}
+.btn2{
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    text-transform: uppercase;
+    height: 46px;
+    border-radius: 20px;
+    background: var(--Background---Secondary, #3B3B3B);
+    border: none;
+    width: 175px;
+}
+.btn3{
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    text-transform: uppercase;
+    height: 46px;
+    border-radius: 20px;
+    background: var(--Background---Secondary, #3B3B3B);
+    border: none;
+    width: 110px;
+}
+.h3blck2{
+    color: var(--White, #FFF);
+    font-family: Work Sans;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 45.6px */
+    text-transform: capitalize;
+}
+.btn4{
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    height: 60px;
+    border-radius: 20px;
+    background-color: hsla(0, 0%, 17%, 1);
+    border: 2px solid hsla(266, 100%, 67%);
+    width: 267px;
+}
+.card4{
+    width: 330px !important;
+    height: 469px !important;
+    background: #3B3B3B !important;
+    border-radius: 20px !important;
+    background-color: hsla(0, 0%, 17%, 1) !important;
+}
+.pcard4{
+    color: #858584;
+    font-family: Space Mono;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 13.2px */
+}
+.h6card4{
+    color: var(--white, #FFF) !important;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+.h5card{
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 30.8px */
+    text-transform: capitalize;
+}
+.pcard{
+    color: #FFF;
+    font-family:"Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+.input-group{
+    border-radius: 20px !important;
+    width: 425px !important;
+    height: 60px !important;
+    background-color: hsla(0, 0%, 100%, 1) !important;
+ }
+ .form-control{ 
+    width: 215px !important;
+    height: 60px !important;
+    background-color: hsla(0, 0%, 100%, 1) !important;
+    border: 1px solid hsla(0, 0%, 100%, 1) !important;
+    color: var(--background, #2B2B2B) !important;
+    font-family: "Work Sans" !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 140% !important; /* 22.4px */
+    border-radius: 20px !important;
+}
+.btninp{
+    color: #FFF !important;
+    text-align: center !important;
+    font-family: "Work Sans" !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: 140% !important; /* 22.4px */
+    width: 180px !important;
+    height: 60px !important;
+    background-color: hsla(266, 100%, 67%, 1) !important;
+    border: 1px solid hsla(266, 100%, 67%, 1) !important;
+    border-radius: 20px !important;
+}
+.btninp1{
+    color: #FFF !important;
+    text-align: center !important;
+    font-family: "Work Sans" !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: 140% !important; /* 22.4px */
+    width: 315px !important;
+    height: 46px !important;
+    background-color: hsla(266, 100%, 67%, 1) !important;
+    border: 1px solid hsla(266, 100%, 67%, 1) !important;
+    border-radius: 20px !important;
+}
+ .fluid3{
+    background-color: hsla(0, 0%, 23%, 1) !important;
+    height: 334px !important;
+ }
+ .pfooter{
+    color: #CCC;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+ }
+ .dfooter{
+    border-bottom: 1px solid hsla(60, 0%, 52%, 1) !important;
+ }
+ .afooter{
+    font-family: Space Mono !important;
+    font-size: 22px !important;
+    font-weight: 700 !important;
+    line-height: 35px !important;
+    letter-spacing: 0em !important;
+    text-decoration: none !important;
+    color: #FFF !important;
+}
+.plast{
+    color: #CCC;
+    font-family: "Work Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 13.2px */
+}
+@media screen and (max-width:768px) {
+    .fluid3{
+        height: 320px !important;
+    }
+    .div1, .last, .dfooter{
+        width: 355px !important;
+    }
+    .h2div1{
+        font-size: 29px;
+        line-height: 38.2px;
+    }
+    .pdiv1{
+        font-size: 16px;
+        line-height: 22.4px;
+    }
+    .p1div1{
+        font-size: 13px;
+        line-height: 22.4px;
+    }
+    .clock{
+        margin-top: 20px;
+        width: 315px;
+        height: 237px;
+    }
+    .h3blck2{
+        font-size: 28px;
+        line-height: 39.2px;
+    }
+    .h5card{
+        font-size: 16px !important;
+        line-height: 22.4px !important;
+    }
+       .card4{
+        width: 315px !important;
+        height: 430px !important;
+    }
+       .pcard{
+        font-size: 12px !important;
+        line-height: 14.8px !important;
+    }
+    .btn4{
+        width: 315px !important;
+    }
+    .form-control{
+        width: 315px !important;
+        height: 46px !important;
+       }
+       .fluid3{
+        height: 876px !important;
+       }
+       .afooter{
+        font-size: 20px !important;
+       }
+       .dfooter{
+        height: 820px !important;
+       }
+}
